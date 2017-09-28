@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context="com.example.dimaculangan.dimaculanganquiz1.MainActivity">
+
+    <ListView
+        android:id="@+id/lvAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="40dp"
+        android:text="Home"
+        android:onClick="homePage"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/page1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_btn"
+        android:layout_alignBottom="@+id/home_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/home_btn"
+        android:layout_toRightOf="@+id/home_btn"
+        android:background="@android:color/darker_gray"
+        android:onClick="firstPage"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/page2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_btn"
+        android:layout_alignBottom="@+id/home_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/page1"
+        android:layout_toRightOf="@+id/page1"
+        android:background="@android:color/darker_gray"
+        android:onClick="secondPage"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/page3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_btn"
+        android:layout_alignBottom="@+id/home_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/page2"
+        android:layout_toRightOf="@+id/page2"
+        android:background="@android:color/darker_gray"
+        android:onClick="thirdPage"
+        android:text="3" />
+
+
+
+
+</RelativeLayout>

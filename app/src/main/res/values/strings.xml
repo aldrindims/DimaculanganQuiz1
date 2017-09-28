@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DimaculanganQuiz1</string>
+    <string-array name="Codename">
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+    </string-array>
+</resources>
